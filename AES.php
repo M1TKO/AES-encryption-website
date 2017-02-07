@@ -44,9 +44,12 @@ class AES {
 * @param type $key
 */
   public function setKey($key) {
-    
-    $key = str_pad($key, 24, "\0", STR_PAD_RIGHT);
-    if (strlen($key) > 32){
+    $len = strlen($key);
+    if($len < 24 && $len != 16){
+       $key = str_pad($key, 24, "\0", STR_PAD_RIGHT); 
+    }elseif ($len > 24 && $len < 32) {
+        $key = str_pad($key, 32, "\0", STR_PAD_RIGHT);       
+    }elseif ($len > 32){
         $key = substr($key, 0, 32);
     }
     $this->key = $key;
