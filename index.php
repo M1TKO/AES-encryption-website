@@ -19,7 +19,7 @@
 
 		<p>Enter encryption key:</p>
 		<span class="errorMsg1"><?php echo $errorKey; ?></span>
-		<input type="text" name="key" id="key" maxlength="100">
+		<input type="text" name="key" id="key" maxlength="100" autocomplete="off">
 		
 		<p>Enter your data for encryption / decryption:</p>
 		<span class="errorMsg2"><?php echo $errorData; ?></span>
