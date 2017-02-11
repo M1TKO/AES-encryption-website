@@ -2,7 +2,7 @@
 ### Encrypt and decrypt text with AES algorithm :zap:
 ####:closed_lock_with_key: Encription modes: 128bit, 192bit & 256bit.
 ####:key: Shows the result of encryption in base64.  
-#
+---
 ### How secure it is?
 _AES encryption is used by U.S. for securing sensitive but unclassified material, so we can say it is enough secure. :envelope:_
 #
@@ -11,4 +11,10 @@ _If you want to encrypt a text put it in the white textarea above, set the key o
 The result of the encryption will appear in base64 encoded to prevent character encoding problems.  
 If you want to decrypt a text be sure it is in base64 encoded and is encrypted with AES algorithm!  
 Put the encrypted text in the white textarea, set the key and push the Decrypt button._  
-#
+---
+###How it looks?
+![how ti looks ](http://i.imgur.com/jEKwNcZ.jpg "Logo Title Text 1")
+
+---
+
+> ## Big thanks to [AESencription.net](http://aesencryption.net/) for the AES algorithm :)
