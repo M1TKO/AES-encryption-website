@@ -60,11 +60,12 @@
 		<img src="media/github.png" alt="github">
 	</a>
 	<a href="http://aesencryption.net/" target="_blank">
-		<img src="media/aes.jpg" alt="aes">
+		<img src="media/aes.JPG" alt="aes">
 	</a>
 	<p>Big thanks to aesencription.net for AES algorithm. <3</p>
 </div>
 
 <script type="text/javascript" src="script.js"></script>
+<!--
 </body>
 </html>
